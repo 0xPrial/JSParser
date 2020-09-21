@@ -12,7 +12,6 @@ A python 2.7 script using Tornado and JSBeautifier to parse relative URLs from J
 ```
 pip3 uninstall pycurl 
 pip3 install --no-cache-dir --global-option=build_ext --global-option="-L/usr/local/opt/openssl/lib" --global-option="-I/usr/local/opt/openssl/include"  pycurl
-
 ```
 
 ## Fix tested on
