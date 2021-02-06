@@ -14,6 +14,13 @@ pip3 uninstall pycurl
 pip3 install --no-cache-dir --global-option=build_ext --global-option="-L/usr/local/opt/openssl/lib" --global-option="-I/usr/local/opt/openssl/include"  pycurl
 ```
 
+**or**
+
+```
+pip3 uninstall pycurl 
+pip3 install --compile --install-option="--with-openssl" pycurl
+```
+
 ## Fix tested on
 * MacOs Catalina
 * Fedora
